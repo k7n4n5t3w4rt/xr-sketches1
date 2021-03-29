@@ -62,6 +62,7 @@ const Circles = (props /*: Props */) => {
         console.warn(
           "'immersive-ar' isn't supported, or an error occurred activating AR!",
         );
+        alert("No AR :(");
       });
   });
 
