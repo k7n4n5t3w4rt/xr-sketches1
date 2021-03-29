@@ -64,7 +64,7 @@ const Circles = (props /*: Props */) => {
         );
         alert("No AR :(");
       });
-  });
+  }, []);
 
   // console.log(props.count.isInteger());
   return html`
